@@ -1,0 +1,32 @@
+{
+    "name": "exment-oauth/microsoft-graph",
+    "description": "Oauth2 for Exment, Microsoft Graph",
+    "type": "library",
+    "keywords": ["Exment", "Oauth", "Microsoft Graph"],
+    "homepage": "https://exment.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kajitori Co.,Ltd.",
+            "homepage": "https://kajitori.co.jp/"
+        }
+    ],
+    "require": {
+        "laravel/socialite": "~3.2.0",
+        "socialiteproviders/microsoft-graph": "~2.1.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ExmentOauth\\MicrosoftGraph\\": "./"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ExmentOauth\\MicrosoftGraph\\EventServiceProvider"
+            ]
+        }
+    }
+}
