@@ -12,8 +12,8 @@
         }
     ],
     "require": {
-        "laravel/socialite": "^3.2.0",
-        "socialiteproviders/microsoft-graph": "~2.1.0"
+        "laravel/socialite": "~5.1",
+        "socialiteproviders/microsoft-graph": "~4.1"
     },
     "require-dev": {
     },
