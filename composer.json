@@ -1,5 +1,5 @@
 {
-    "name": "exment-oauth/microsoft-graph",
+    "name": "exceedone/microsoft-graph",
     "description": "Oauth2 for Exment, Microsoft Graph",
     "type": "library",
     "keywords": ["Exment", "Oauth", "Microsoft Graph"],
